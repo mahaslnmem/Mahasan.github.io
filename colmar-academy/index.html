@@ -16,12 +16,32 @@
 
 <body>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light my-1">
+
+    <!-- Mobile Nav -->
+<nav class="container-fluid ">
+    <div class="mobile-nav">
+        <ul style="list-style-type: none; margin-bottom: 0px; margin-top: 64px;" class="row align-items-center">
+            <li class="nav-item col">
+                <a class="nav-link" href="" ><img src="./images/ic-logo.svg"></a>
+            </li>
+            <li class="nav-item col">
+                <a class="nav-link" href="" ><img src="./images/ic-on-campus.svg"></a>
+            </li>
+            <li class="nav-item col">
+                <a class="nav-link" href="" ><img src="./images/ic-online.svg"></a>
+            </li>
+            <li class="nav-item col">
+                <a class="nav-link" href="" ><img src="./images/ic-login.svg"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+    <!-- Desktop Nav -->
+<nav class="navbar desktop-nav navbar-light bg-light my-1">
     <div class="container-fluid">
         <a class="navbar-brand" href="#" style="color: #4a4a4a; height: 32px;"><img src="./images/ic-logo.svg">COLMARARCADEMY</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
             <ul class="nav justify-content-end me-2  mb-lg-0 " style="color: #515151;">
                 <li class="nav-item">
                     <a class="nav-link active px-1" aria-current="page" href="#" id="campus-sign-in">On Campus</a>
@@ -30,7 +50,7 @@
                       <a class="nav-link active px-2" href="#" id="online-sign-in">Online</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link active px-2" href="#" id="company-sign-in">Or Companies</a>
+                      <a class="nav-link active px-2" href="#" id="company-sign-in">For Companies</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active px-2" href="#" id="sign-in">Sign in</a>
@@ -44,11 +64,11 @@
 
     <div class="py-2 mb-4 rounded-3" style="background-color: #d8d8d8;">
         <div class="container-fluid p-4">
-            <div class="row row-cols-2 align-item-center justify-content-center">
-                <div class="col-7">
+            <div class="row">
+                <div class="col-md-7">
                     <img src="./images/banner.jpg" class="img-fluid text-center" alt="banner">
                 </div>
-                <div class="col-5">
+                <div class="col-md-5">
                     <h1 class="display-5 mx-3 mt-4 pt-5 fw-bold">Learn something new everyday</h1>
                     <p class="col-md-8 mx-3 py-2 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="d-grid gap-2 col-8  py-2 mx-3">

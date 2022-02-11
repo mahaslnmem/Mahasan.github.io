@@ -3,3 +3,25 @@
 a:active, a:visited, a:link, .nav-link {
     color: #515151;
 }
+
+/* When the screen width is less than 600 pixels  */
+@media screen and (max-width: 600px) { 
+    .mobile-nav{
+        display: block;
+        width: 100%;
+    }
+    .desktop-nav{
+        display: none;
+    }
+}
+
+/* When the screen width is more than 600 pixels  */
+@media screen and (min-width: 600px) { 
+    .mobile-nav{
+        display: none;
+    }
+    .desktop-nav{
+        display: block;
+        width: 100%;
+    }
+}
