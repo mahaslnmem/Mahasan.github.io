@@ -1,0 +1,5 @@
+/* Link color */
+
+a:active, a:visited, a:link, .nav-link {
+    color: #515151;
+}
