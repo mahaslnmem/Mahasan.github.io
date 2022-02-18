@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Intro to JS</title>
+    <link rel="stylesheet" href="./main.css"/>
 </head>
 <body>
-    <h1 id="my-name">Who are you?</h1>
-    <button onclick="askMyName()">Hello!</button>
-    <button onclick="helloWorld()">คำคมประจำวัน</button>
-
+    <div>
+        <h1 id="my-name">Who are you?</h1>
+        <button onclick="askMyName()" class="btn-color">Hello!</button>
+        <button onclick="helloWorld()" class="btn-color">คำคมประจำวัน</button>
+        <button onclick="calAge()" class="btn-color">คำนวณอายุ</button>    
+    </div>
+    <div>
+        <p><strong>Name:</strong><p id="my-name-profile"></p></p>
+        <p><strong>Province:</strong><p id="my-province"></p></p>
+        <button onclick="loadProfile()" class="btn-color">Load Profile</button>    
+    </div>
 
 
 
